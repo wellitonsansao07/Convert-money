@@ -8,7 +8,7 @@ function convertValues() {
 
     const dolarToday = 4.78
     const euroToday = 5.32
-    const bitcoinToday = 142800.00
+    const bitcoinToday = 143200.00
     const libraToday = 6.14
 
 
