@@ -6,10 +6,10 @@ function convertValues() {
     const moedaValorconvert = document.querySelector(".moeda-valor-convert") // Valor em Real
     const moedaValorconvertido = document.querySelector(".moeda-valor") // Outras Moedas
 
-    const dolarToday = 4.78
-    const euroToday = 5.32
-    const bitcoinToday = 143200.00
-    const libraToday = 6.14
+    const dolarToday = 4.76
+    const euroToday = 5.28
+    const bitcoinToday = 139000.00
+    const libraToday = 6.11
 
 
 
