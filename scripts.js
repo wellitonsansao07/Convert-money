@@ -6,7 +6,6 @@ async function convertValues() {
     const moedaValorconvert = document.querySelector(".moeda-valor-convert") // Valor em Real
     const moedaValorconvertido = document.querySelector(".moeda-valor") // Outras Moedas
 
-    const libraToday = 6.17
 
     //async await só acontece dentro de uma função
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then( response => response.json())
@@ -14,6 +13,7 @@ async function convertValues() {
     const dolarToday = data.USDBRL.high
     const euroToday = data.EURBRL.high
     const bitcoinToday = data.BTCBRL.high
+    const libraToday = 6.18
 
     if (currencySelect.value == "dolar") { // Se o select estiver selecionado o valor de dolar, entre aqui
         moedaValorconvertido.innerHTML = new Intl.NumberFormat("en-US", {
